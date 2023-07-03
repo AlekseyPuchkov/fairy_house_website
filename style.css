@@ -317,7 +317,7 @@ a {
 }
 
 .variants_color h2 {
-margin-left: 1241px;
+  margin-left: 1241px;
 }
 
 .slider_colors {
@@ -335,14 +335,134 @@ margin-left: 1241px;
   width: 771px;
   padding-top: 42px;
   padding-left: 800px;
-  color: var(--text-color-1, #2D2D2D);
-font-size: 18px;
-font-family: Open Sans;
-font-style: normal;
-font-weight: 600;
-line-height: 200%;
+  color: var(--text-color-1, #2d2d2d);
+  font-size: 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 200%;
 }
 
 .hr-colors {
   margin-top: 19px;
+}
+
+/* Process */
+
+.green_house {
+  position: absolute;
+  right: 0;
+  top: 5550px;
+}
+
+.process-h2 {
+  margin-left: 320px;
+}
+.process-cardbox {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin-top: 110px;
+}
+
+.process-card {
+  position: relative;
+  text-align: center;
+  padding: 30px 50px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--text-color-1, #2d2d2d);
+  background: #fdffa4;
+  box-shadow: 0px 0px 0px 0px rgba(50, 85, 0, 0.1),
+    4px 5px 13px 0px rgba(50, 85, 0, 0.1),
+    16px 18px 24px 0px rgba(50, 85, 0, 0.09),
+    36px 41px 33px 0px rgba(50, 85, 0, 0.05),
+    63px 74px 39px 0px rgba(50, 85, 0, 0.01),
+    99px 115px 42px 0px rgba(50, 85, 0, 0);
+}
+
+.number span {
+  position: absolute;
+  color: var(--text-color, #2d2d2d);
+  font-size: 96px;
+  font-family: GoodDog;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  left: 12px;
+  top: -68px;
+}
+
+.process-card h3 {
+  color: var(--text-color-1, #2d2d2d);
+  font-size: 20px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.process-text {
+  padding-top: 10px;
+  width: 265px;
+  color: var(--text-color-1, #2D2D2D);
+text-align: center;
+font-size: 18px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.card-1 {
+  margin-left: 320px;
+}
+
+.line1 {
+  padding-left: 362px;
+}
+
+.card-2 {
+  padding-left: 411px;
+}
+
+.line2 {
+  padding-left: 773px;
+}
+
+.card-3 {
+  padding-left: 822px;
+}
+
+.line3 {
+  padding-left: 773px;
+}
+
+.card-4 {
+  padding-left: 411px;
+}
+
+.line4 {
+  padding-left: 362px;
+}
+
+.process_content {
+  width: 1152px;
+  display: flex;
+  flex-direction: column;
+width: 1152px;
+height: 293px;
+color: var(--text-color-1, #2D2D2D);
+font-size: 18px;
+font-family: Open Sans;
+font-weight: 500;
+line-height: 200%;
+margin-left: 320px;
+margin-top: 110px;
+}
+
+.content-2 p {
+  font-weight: 800;
+  padding-top: 42px;
 }
