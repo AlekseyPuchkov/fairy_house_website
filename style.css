@@ -242,7 +242,7 @@ a {
 }
 
 .advantages-right img {
-  height: 494px;
+  height: 540px;
 }
 
 .right-card {
@@ -262,4 +262,56 @@ a {
     57px 54px 47px 0px rgba(0, 0, 0, 0.05),
     101px 96px 56px 0px rgba(0, 0, 0, 0.01),
     158px 151px 61px 0px rgba(0, 0, 0, 0);
+  color: #2d2d2d;
+  text-align: center;
+  font-size: 18px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.card-box_right {
+  margin-top: 30px;
+}
+
+.BG_slider {
+  margin-top: 110px;
+  height: 1138px;
+  background-image: url(img/BG\ slider.png);
+  background-repeat: no-repeat;
+}
+
+.BG_slider h2 {
+  padding-left: 1330px;
+  padding-top: 85px;
+  color: #fff;
+  font-size: 48px;
+  font-family: GoodDog;
+  font-weight: 400;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  padding-top: 120px;
+  padding-left: 294px;
+}
+
+.slider-left,
+.slider-right {
+  display: flex;
+  padding: 20px 25px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 50px;
+  background: var(
+    --gradient-2,
+    linear-gradient(180deg, #86fd29 0%, #fff502 100%)
+  );
+
+  /* Shadow 1 */
+  box-shadow: 0px 20px 40px 0px rgba(255, 245, 11, 0.7);
+}
+
+.slider-img {
+  padding: 0 70px;
 }
