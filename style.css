@@ -315,3 +315,34 @@ a {
 .slider-img {
   padding: 0 70px;
 }
+
+.variants_color h2 {
+margin-left: 1241px;
+}
+
+.slider_colors {
+  display: flex;
+  align-items: center;
+  padding-top: 42px;
+  padding-left: 228px;
+}
+
+.slider_colors-img {
+  padding: 0 36px;
+}
+
+.colors_content {
+  width: 771px;
+  padding-top: 42px;
+  padding-left: 800px;
+  color: var(--text-color-1, #2D2D2D);
+font-size: 18px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+line-height: 200%;
+}
+
+.hr-colors {
+  margin-top: 19px;
+}
